@@ -1,4 +1,23 @@
 # Affine sets
 ## Typical affine sets
-1. Solution set of a system of linear equations. $C=\left\{x|Ax=b\right}$.
+1. Solution set of a system of linear equations, i.e., $C=\{x|Ax=b\}$ (given $Ax_1=b$ and $Ax_2=b$, we have $A(\theta x_1+(1-\theta)x_2)=b$). Also note that every affine set can be expressed as the solution set of a system of linear equations.
+2. A line.
+3. A plane.
+4. A hyper plane.
+5. The empty set $\emptyset$.
+# Convex sets
+## Typical convex sets
+1. The set of any single point.
+2. The whole space of $R^n$.
+3. A line: $y = \theta x_1 + (1-\theta)x_2$, $0\leq \theta \leq 1, \theta \in R^n$.
+4. A line segment: $y = \theta x_1 + (1-\theta)x_2$, $0\leq \theta \leq 1, \theta \in R^n$.
+5. The empty set $\emptyset$.
+# Cones
+## Typical cones
+1. $n$ rays starting from the origin.
+2. Infinite rays starting from the origin (consist of a convex cone).
+3. origin (a single point not in origin is not a cone).
+4. The empty set $\emptyset$ (and also a convex cone).
+# Comparison of concepts
+
 # Typical convex functions
