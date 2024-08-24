@@ -19,5 +19,8 @@
 3. origin (a single point not in origin is not a cone).
 4. The empty set $\emptyset$ (and also a convex cone).
 # Comparison of concepts
-
+$\sum_{k=1}^K \theta_k x_k$ is a
+1. Affine combination: if $x_1, x_2,..., x_k \in C, \sum_{k=1}^K \theta_k =1$.
+2. Convex combination: if $x_1, x_2,..., x_k \in C, \sum_{k=1}^K \theta_k =1, \forall \theta_k \in [0,1]$.
+3. Convex conic combination: if $x_1, x_2,..., x_k \in C, \forall \theta_k >0$.
 # Typical convex functions
