@@ -31,4 +31,10 @@ $\sum_{k=1}^K \theta_k x_k$ is a
    If we chcange $+\infty$ into $-\infty$, $\widetilde{I_c} (x)$ becomes a concave function.
 
 2. Infimum and Supremum
-   Infimum: 
+   **Infimum**: infimum (abbreviated **inf**) of a subset **$S$** of a partially ordered set **$P$** is the greatest element in **$P$** that is less than or equal to each element of **$S$** if such an element exists. If the infimum of **$S$** exists, it is unique, and if $b$ is a lower bound of **$S$**, then $b$ is less than or equal to the infimum of **$S$**. Consequently, the infimum is commonly referred to as the greatest lower bound (abbreviated as GLB).
+   
+   **Supremum**: supremum (abbreviated **sup**) of a subset **$S$** of a partially ordered set **$P$** is the least element in **$P$** that is greater than or equal to each element of **$S$** if such an element exists. If the supremum of **$S$** exists, it is unique, and if $b$ is an upper bound of **$S$**, then the supremum of **$S$** is less than or equal to $b$. Consequently, the supremum is also referred to as the least upper bound (or LUB).
+   
+   Note: The infimum or supremum of a subset can be outside the subset, the set that contains the infimum or supremum (i.e. the partially ordered set  **$P$**) can be the $\lbrace -\infty, +\infty\rbrace$, 
+
+   An example: For the subset $M=[1,2]$ and set $P=R$, we have ${\rm max} (M)=2, {\rm min} (M)=1$, and ${\rm sup}(M)=2, {\rm inf}(M)=1$, while for the set $M=(1,2)$, we do not have lower bound and upper bound of $M$, (i.e. ${\rm max}(M)={\rm None}, {\rm min}(M)={\rm None}$), but have ${\rm sup}(M)=2, {\rm inf}(M)=1$.
