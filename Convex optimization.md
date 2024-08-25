@@ -24,3 +24,9 @@ $\sum_{k=1}^K \theta_k x_k$ is a
 2. Convex combination: if $x_1, x_2,..., x_k \in C, \sum_{k=1}^K \theta_k =1, \forall \theta_k \in [0,1]$.
 3. Convex conic combination: if $x_1, x_2,..., x_k \in C, \forall \theta_k >0$.
 # Typical convex functions
+1. Indicator function: $\widetilde{I_c} (x) = \lbrace 0 \qquad if \quad x \in C, +\infty \qquad if \quad x \not\in C \rbrace$.
+
+   $\widetilde{I_c} (x)$ 's domain C is a convex set, and the function $f(x)+\widetilde{I_c} (x)$ equals $f(x)$ if $f$ is restricted to the set C.
+
+   If we chcange $+\infty$ into $-\infty$, $\widetilde{I_c} (x)$ becomes a concave function.
+
