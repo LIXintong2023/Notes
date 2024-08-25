@@ -30,3 +30,5 @@ $\sum_{k=1}^K \theta_k x_k$ is a
 
    If we chcange $+\infty$ into $-\infty$, $\widetilde{I_c} (x)$ becomes a concave function.
 
+2. Infimum and Supremum
+   Infimum: 
