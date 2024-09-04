@@ -46,10 +46,14 @@ $\sum_{k=1}^K \theta_k x_k$ is a
 4. Linear functions
 5. Piecewise linear functions
 6. If $f(x)$ is convex, define $g(x)=(c^Tx+d)f((Ax+b)/(c^Tx+d))$, ${\rm dom} (g)=\lbrace x|c^Tx+d>0, ((Ax+b)/(c^Tx+d)) \in {\rm dom} (f)\rbrace$, then $g(x)$ is convex.
-# Typical quasiconvex functions
+# Quasiconvex functions
 ## Definition
 1. A function $f$: $R^n \rightarrow R$ is called quasiconvex (or unimodal) if its domain and all its sublevel sets\\
    $S_\alpha = \lbrace x \in {\rm dom}f|f(x)\leq \alpha\rbrace$, for $\alpha \in {\rm R}$, are convex.
    A function that is both quasiconvex and quasiconcave is called quasilinear.
    If a function $f$ is quasilinear, then its domain, and every level set $\lbrace x | f(x)= \alpha\rbrace $ is convex.
-   For a function on {\rm R}$, quasiconvexity requires that each sublevel set be an interval (including, possibly, an inﬁnite interval). Convex functions have convex sublevel sets, and so are quasiconvex. But the converse is not true.
+   For a function on ${\rm R}$, quasiconvexity requires that each sublevel set be an interval (including, possibly, an inﬁnite interval). Convex functions have convex sublevel sets, and so are quasiconvex. But the converse is not true.
+## Typical quasiconvex functions
+1. $f(x)={\rm log} x$, quasilinear.
+2. ceiling function: ${\rm ceil} (x)={\rm inf}\lbrace z\in {\rm Z}| z\geq x\rbrace$, quasilinear.
+3. ${\rm sin}(x)$ and ${\rm cos}(x)$ are not quasiconvex functions, since a sublevel set for a given $\alpha$ is not a convex set.
