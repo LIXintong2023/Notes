@@ -22,7 +22,8 @@
 $\sum_{k=1}^K \theta_k x_k$ is a
 1. Affine combination: if $x_1, x_2,..., x_k \in C, \sum_{k=1}^K \theta_k =1$.
 2. Convex combination: if $x_1, x_2,..., x_k \in C, \sum_{k=1}^K \theta_k =1, \forall \theta_k \in [0,1]$.
-3. Convex conic combination: if $x_1, x_2,..., x_k \in C, \forall \theta_k >0$.
+   The convex hull of a set $C$, denoted conv $𝐶$, is the set of all convex combinations of points in $𝐶$. It is the smallest convex set that contains $𝐶$.
+4. Conic combination: if $x_1, x_2,..., x_k \in C, \forall \theta_k >0$. A conic combination is also called the non-negative linear combination of the points $x_1, x_2,..., x_k$. A set $C$ is a convex cone if it is convex and a cone, and a set is a convex cone if and only if it contains every conic combination of its points.
 # Typical convex functions
 1. Indicator function:
 
